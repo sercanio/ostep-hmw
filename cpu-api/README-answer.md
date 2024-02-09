@@ -203,3 +203,6 @@ Initializing a variable before the fork() system call and then changing it's val
 
 ## A2
 Both child and parent processes can manipulate opened file before the fork() system call. see code-A2.c that creates a file named A2.txt and it's written by both parent and the child processes.
+
+## A3
+We can wait the child process complete it's job without wait() system call. Simply we can use usleep(MILISECONDS) system call to "wait" for child process for such a time we specified. See code-A3.c.
