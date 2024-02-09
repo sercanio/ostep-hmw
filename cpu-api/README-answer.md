@@ -205,4 +205,14 @@ Initializing a variable before the fork() system call and then changing it's val
 Both child and parent processes can manipulate opened file before the fork() system call. see code-A2.c that creates a file named A2.txt and it's written by both parent and the child processes.
 
 ## A3
-We can wait the child process complete it's job without wait() system call. Simply we can use usleep(MILISECONDS) system call to "wait" for child process for such a time we specified. See code-A3.c.
+We can wait the child process complete it's job without wait() system call. Simply we can use usleep(MILISECONDS) system call to "wait" for child process for such a time we specified. See code-A3.c
+
+## A4
+the word "exec" have suffix like **l**, **v**, **e**, **p**
+
+- l : stands for "list" we should provide list of arguments,
+- v : stands for "vector" we should provide an argument vector,
+- e : stands for "environment" we should provide a custom environment variables
+- p : stands for "path" we don't need to specify full path of the program it will yse the system variables to find that progra
+
+see code-A4.cm
