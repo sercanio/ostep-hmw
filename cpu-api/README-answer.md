@@ -199,7 +199,7 @@ Tree:
 My answers for code workshop
 
 ## A1 
-Initializing a variable before the fork() system call and then changing it's value inside the child process does not affect the parent process. See code-A1.
+Initializing a variable before the fork() system call and then changing it's value inside the child process does not affect the parent process. See code-A1.c .
 
 ## A2
 Both child and parent processes can manipulate opened file before the fork() system call. see code-A2.c that creates a file named A2.txt and it's written by both parent and the child processes.
