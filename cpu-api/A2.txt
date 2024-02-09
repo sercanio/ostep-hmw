@@ -1,0 +1,2 @@
+Child process content.
+Parent process content.
