@@ -229,3 +229,20 @@ On parent (pid: 1290)
 
 See code-A5.c
 
+## A6
+waitpid() is more flexible alternative to the wait(). 
+```
+id_t wcpid = waitpid(rc, &status, 0);
+printf("wcpid = %d, exit status : %d\n", wcpid, WEXITSTATUS(status));
+```
+
+we can print out with exit status of the child process that waitpid provide us.
+
+For more details:
+```
+man waitpid
+```
+
+And also see code-A6.c
+
+
