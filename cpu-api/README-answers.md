@@ -225,6 +225,7 @@ wc: -1
 On child (pid: 1292) 
 wc: 1292
 On parent (pid: 1290) 
+```
 
 See code-A5.c
 
