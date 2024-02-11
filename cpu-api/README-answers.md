@@ -245,4 +245,10 @@ man waitpid
 
 And also see code-A6.c
 
+## A7
+If we close standard output in child process with
+```
+close(STDOUT_FILENO);
+```
+the child can not print anymore, parent still can. 
 
