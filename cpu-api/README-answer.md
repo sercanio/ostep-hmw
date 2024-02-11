@@ -215,4 +215,16 @@ the word "exec" have suffix like **l**, **v**, **e**, **p**
 - e : stands for "environment" we should provide a custom environment variables
 - p : stands for "path" we don't need to specify full path of the program it will yse the system variables to find that progra
 
-see code-A4.cm
+see code-A4.c
+
+## A5
+wait() returns the pid of the child process. If wait() be used in the child processes it returns "-1" if there is no child under the child process :
+
+```
+wc: -1
+On child (pid: 1292) 
+wc: 1292
+On parent (pid: 1290) 
+
+See code-A5.c
+
